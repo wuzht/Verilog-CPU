@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed May 30 10:20:42 2018
+# Process ID: 1508
+# Log file: E:/SingleCycleCPU/vivado.log
+# Journal file: E:/SingleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/SingleCycleCPU/SingleCycleCPU.xpr
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+add_bp {E:/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/DataMemory.v} 36
+remove_bps -file {E:/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/DataMemory.v} -line 36
+add_bp {E:/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/DataMemory.v} 36
+remove_bps -file {E:/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/DataMemory.v} -line 36
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/SingleCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+run 10 us
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/SingleCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
