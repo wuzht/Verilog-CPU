@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 26 22:06:22 2018
+# Process ID: 1576
+# Log file: E:/VivadoProjects/MultiCycleCPU/vivado.log
+# Journal file: E:/VivadoProjects/MultiCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.xpr
+close [ open E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v w ]
+add_files E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v
+update_compile_order -fileset sources_1

@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 27 22:21:19 2018
+# Process ID: 3028
+# Log file: E:/VivadoProjects/MultiCycleCPU/vivado.log
+# Journal file: E:/VivadoProjects/MultiCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+set_property xsim.view E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg [get_filesets sim_1]
+undo
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+close_sim
+launch_simulation
+source CPU_sim.tcl
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+set_property xsim.view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+run 10 us
+run 10 us
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+run 10 us
+close_sim

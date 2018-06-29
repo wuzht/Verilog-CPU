@@ -1,0 +1,1919 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 27 22:21:19 2018
+# Process ID: 3028
+# Log file: E:/VivadoProjects/MultiCycleCPU/vivado.log
+# Journal file: E:/VivadoProjects/MultiCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 752.789 ; gain = 164.633
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:73]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:73]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:83]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:83]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:85]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:85]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:87]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:87]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register PCWre is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:94]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register PCWre is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:94]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ALUSrcA is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:96]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:63]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:68]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:73]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:73]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:75]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:80]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:83]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:83]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:85]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:85]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:87]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register state is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:87]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register PCWre is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:94]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register PCWre is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:94]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register ALUSrcA is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:96]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+ERROR: [VRFC 10-91] ALUSrcA is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:96]
+ERROR: [VRFC 10-91] ALUSrcB is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:98]
+ERROR: [VRFC 10-91] DBDataSrc is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:102]
+ERROR: [VRFC 10-91] RegWre is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:104]
+ERROR: [VRFC 10-91] WrRegDSrc is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:106]
+ERROR: [VRFC 10-91] InsMemRW is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:107]
+ERROR: [VRFC 10-91] _RD is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:109]
+ERROR: [VRFC 10-91] _WR is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:111]
+ERROR: [VRFC 10-91] IRWre is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:112]
+ERROR: [VRFC 10-91] ExtSel is not declared [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:114]
+ERROR: [VRFC 10-1040] module ControlUnit ignored due to previous errors [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:40]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:43]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:43]
+ERROR: [VRFC 10-1040] module RegisterFile ignored due to previous errors [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+ERROR: [VRFC 10-841] illegal net data type [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:36]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:41]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:42]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:43]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register writeReg is not permitted, left-hand side should be reg/integer/time/genvar [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:43]
+ERROR: [VRFC 10-1040] module RegisterFile ignored due to previous errors [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v:23]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port state [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:40]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:44]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dbdrDataOut [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 347992820 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 22:42:32 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 783.555 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 790.906 ; gain = 7.352
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 849.012 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port state [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:40]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:44]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dbdrDataOut [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 77.391 ; gain = 0.016
+
+    while executing
+"webtalk_transmit -clientid 3811616982 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 22:52:31 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 849.012 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 849.012 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 849.012 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 3 for port state [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:40]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:44]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dbdrDataOut [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 310407110 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 22:56:08 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 849.012 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 849.012 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 849.012 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:44]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dbdrDataOut [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3850021492 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 22:57:52 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 849.012 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 849.012 ; gain = 0.000
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+set_property xsim.view E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg [get_filesets sim_1]
+undo
+INFO: [Common 17-17] undo 'set_property xsim.view E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg [get_filesets sim_1]'
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 849.012 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+ERROR: [VRFC 10-529] concurrent assignment to a non-net PCWre is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:94]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ALUSrcA is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:96]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ALUSrcB is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:98]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net DBDataSrc is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:102]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RegWre is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:104]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net WrRegDSrc is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:106]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net InsMemRW is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:107]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net _RD is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:109]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net _WR is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:111]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net IRWre is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:112]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ExtSel is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:114]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net PCSrc is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:116]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net PCSrc is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:119]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RegDst is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:123]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net RegDst is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:127]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ALUOp is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:130]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ALUOp is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:133]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net ALUOp is not permitted [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:137]
+ERROR: [VRFC 10-1040] module ControlUnit ignored due to previous errors [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v:40]
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:44]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port dbdrDataOut [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v:61]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1685719598 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 23:07:18 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 849.012 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 849.012 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 2424824045 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 23:47:57 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 849.012 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 849.012 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 849.465 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <CPU> not found while processing module instance <cpu> [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:33]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <CPU> not found while processing module instance <cpu> [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:33]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log' file for more information.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 931088166 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 23:54:11 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 849.465 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 849.465 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 852.047 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1203434917 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 23:57:45 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 852.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 00:14:15 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:14:15 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 852.047 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <CPU> not found while processing module instance <cpu> [E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-99] Step results log file:'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/elaborate.log' file for more information.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3630625986 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:26:56 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 852.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 00:28:35 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:28:35 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 852.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 406222324 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:30:49 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 852.047 ; gain = 0.000
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+WARNING: [filemgmt 56-12] File 'E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg' cannot be added to the project because it already exists in the project, skipping this file
+set_property xsim.view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 00:36:18 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:36:18 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 852.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 00:41:23 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:41:23 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 852.047 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 852.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 854.840 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 2421256460 -regid "" -xml E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usag..."
+    (file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 00:42:55 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 854.840 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 854.840 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 01:54:56 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 01:54:56 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 854.840 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 854.840 ; gain = 0.000
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 02:24:19 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 02:24:19 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 863.168 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 863.168 ; gain = 0.000
+run 10 us
+run 10 us
+save_wave_config {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'CPU_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 7b0be17bf0a5481bb8ea7616e5aca7c2 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DR
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot CPU_sim_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav/xsim.dir/CPU_sim_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 28 02:43:15 2018. For additional details about this file, please refer to the WebTalk help file at C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 28 02:43:15 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 863.168 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_sim_behav -key {Behavioral:sim_1:Functional:CPU_sim} -tclbatch {CPU_sim.tcl} -view {E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config E:/VivadoProjects/MultiCycleCPU/CPU_sim_behav.wcfg
+source CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 863.168 ; gain = 0.000
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 875.715 ; gain = 12.547
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 28 02:54:36 2018...

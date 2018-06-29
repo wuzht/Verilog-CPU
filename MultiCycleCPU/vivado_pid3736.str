@@ -1,0 +1,138 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 3736
+
+Current time: 	6/28/18 4:31:47 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x950
+Screen resolution (DPI): 120
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=15
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/tps/win64/jre
+
+User name: 	MrW
+User directory: E:/VivadoProjects/MultiCycleCPU
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/MrW/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/MrW/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	137 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 363 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\VivadoProjects\MultiCycleCPU\MultiCycleCPU.xpr. Version: Vivado v2015.2 
+// [GUI Memory]: 44 MB (+43611kb) [00:00:13]
+// [Engine Memory]: 356 MB (+221563kb) [00:00:13]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/VivadoProjects/MultiCycleCPU/MultiCycleCPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 415 MB. GUI used memory: 27 MB. Current time: 6/28/18 4:31:49 PM CST
+// [Engine Memory]: 417 MB (+45350kb) [00:00:19]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 51 MB (+5069kb) [00:00:21]
+// [Engine Memory]: 470 MB (+33674kb) [00:00:21]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/MrW/Documents/vivado2015.2/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: MultiCycleCPU; location: E:/VivadoProjects/MultiCycleCPU; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 749.836 ; gain = 178.582 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU (CPU.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+// [GUI Memory]: 54 MB (+280kb) [00:00:36]
+// [GUI Memory]: 58 MB (+1490kb) [00:00:48]
+// PAPropertyPanels.initPanels (CPU.v) elapsed time: 0.2s
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU (CPU.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [Engine Memory]: 499 MB (+6304kb) [00:00:49]
+// [GUI Memory]: 65 MB (+3782kb) [00:00:52]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 41 MB. Current time: 6/28/18 4:32:25 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14, true); // A:k (H:JPanel, cl:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 15, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+// Elapsed time: 22 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 70 MB (+2167kb) [00:06:36]
+// [GUI Memory]: 73 MB (+39kb) [00:07:22]
+// [GUI Memory]: 80 MB (+3216kb) [00:10:03]
+// [GUI Memory]: 88 MB (+4398kb) [00:18:49]
+// [GUI Memory]: 95 MB (+2504kb) [00:21:31]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 518 MB. GUI used memory: 43 MB. Current time: 6/28/18 5:02:25 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 43 MB. Current time: 6/28/18 5:10:33 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 525 MB (+987kb) [00:39:15]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
